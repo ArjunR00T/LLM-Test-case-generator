@@ -1,0 +1,79 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.env
+.venv/
+env/
+venv/
+pip-log.txt
+pytest_cache/
+*.sqlite3
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+*.checkpoint
+*.pt
+*.bin
+
+# HuggingFace & model files
+*.cache
+*.h5
+*.ckpt
+*.onnx
+*.safetensors
+*.pth
+*.tflite
+*.msgpack
+*.pb
+
+# Transformers
+tokenizer_config.json
+special_tokens_map.json
+generation_config.json
+
+# FAISS
+*.faiss*
+*.index
+*.npy
+
+# Cloudflared log
+tunnel.log
+
+# VSCode
+.vscode/
+.code-workspace
+
+# Ignore model checkpoints and large vectors
+backend/vector_search/models--*/
+*.pt
+*.bin
+*.npy
+*.faiss
+
+# Node/React (Frontend)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.parcel-cache
+frontend/.turbo
+frontend/.next
+
+# Coverage
+coverage/
+htmlcov/
+
+# Misc
+*.bak
+*.swp
+*.tmp
+*.log

@@ -1,0 +1,23 @@
+[
+    {
+      "user_story": "As a user, I want to reset my password using my email.",
+      "test_cases": [
+        "Verify 'Forgot Password' link is visible.",
+        "Verify reset form appears when clicked.",
+        "Verify email input is required.",
+        "Verify reset link is sent for valid email.",
+        "Verify error shown for unregistered email."
+      ]
+    },
+    {
+      "user_story": "As a user, I want to login with my credentials.",
+      "test_cases": [
+        "Verify login page loads.",
+        "Verify email and password fields accept input.",
+        "Verify successful login redirects to dashboard.",
+        "Verify incorrect password shows error.",
+        "Verify 'Remember Me' option persists session."
+      ]
+    }
+  ]
+  
