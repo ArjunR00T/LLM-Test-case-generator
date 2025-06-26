@@ -48,8 +48,8 @@ Flask (Backend)
 
 ```bash
 # Clone the repo
-git clone https://github.com/ArjunR00T/llm-testgen
-cd llm-testgen
+git clone https://github.com/ArjunR00T/LLM-Test-case-generator.git
+cd LLM-Test-case-generator
 
 # Start backend
 cd backend
